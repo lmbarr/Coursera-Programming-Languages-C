@@ -1,0 +1,29 @@
+NoMethodError: undefined method `[]' for nil:NilClass
+---< backtrace of Ruby side >-----
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6provided.rb:215:in `block in store_current'
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6provided.rb:213:in `each'
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6provided.rb:213:in `store_current'
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6provided.rb:193:in `drop_all_the_way'
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6provided.rb:334:in `block in buttons'
+/home/luis/MEGA/coursera_cursos/ProgrammingLanguages/seccion8/hw6graphics.rb:79:in `block (2 levels) in initialize'
+/usr/lib/ruby/1.9.1/tk.rb:1451:in `call'
+/usr/lib/ruby/1.9.1/tk.rb:1451:in `eval_cmd'
+/usr/lib/ruby/1.9.1/tk.rb:1451:in `cb_eval'
+/usr/lib/ruby/1.9.1/tk.rb:1398:in `call'
+/usr/lib/ruby/1.9.1/tk.rb:1594:in `block in callback'
+/usr/lib/ruby/1.9.1/tk.rb:1593:in `catch'
+/usr/lib/ruby/1.9.1/tk.rb:1593:in `callback'
+/usr/lib/ruby/1.9.1/tk.rb:1300:in `mainloop'
+/usr/lib/ruby/1.9.1/tk.rb:1300:in `block in <module:TkCore>'
+---< backtrace of Tk side >-------
+    invoked from within
+"rb_out c00021"
+    invoked from within
+".w00008 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 22)
+    invoked from within
+"tk::ButtonUp .w00008"
+    (command bound to event)
